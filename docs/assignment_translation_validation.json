@@ -1,0 +1,121 @@
+{
+  "validated_at_utc": "2026-09-29T14:46:52.490586+00:00",
+  "scope": "Full Chinese translations of local assignment README files, plus setup and repository README.",
+  "assignment_translation_count": 7,
+  "setup_translation_count": 1,
+  "repository_readme_translation_count": 1,
+  "original_file_hashes_verified": 99,
+  "original_files_unchanged": true,
+  "translated_fenced_code_blocks": 101,
+  "retained_image_occurrences": 14,
+  "checks": [
+    "All source fenced blocks and HTML preformatted examples accounted for.",
+    "Setup command blocks match source in order and content after Markdown indentation normalization.",
+    "All source image occurrences retained and local targets exist.",
+    "Local Markdown file targets exist; obsolete source anchors are retained with translator notes.",
+    "Translations reviewed section by section for complete prose, hints, examples, and submission instructions.",
+    "Obsidian callouts used instead of HTML details."
+  ],
+  "assignment_programs_or_graders_executed": false,
+  "files": [
+    {
+      "file": "README.zh-CN.md",
+      "source": "README.md",
+      "source_fenced_blocks": 0,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 0,
+      "image_occurrences": 0,
+      "missing_local_file_targets": [],
+      "sha256": "2083b0eb99e5bdd9ce39d27ef832a112d78cd4177911df17e8e54842922c8428",
+      "source_sha256": "9560d8c80bb1b402ce4dd0f686cd6ab84116f524af0e85e4da985669d223b29b"
+    },
+    {
+      "file": "assignment-setup/README.zh-CN.md",
+      "source": "assignment-setup/README.md",
+      "source_fenced_blocks": 26,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 26,
+      "image_occurrences": 6,
+      "missing_local_file_targets": [],
+      "sha256": "351211f822dcfc944de4b32ad18bf97278e34cf3389e1d06c50969998768619c",
+      "source_sha256": "57d3d108259980f4461176f160c1137b0b80adb3799d1c22218dc30ec391ba0c"
+    },
+    {
+      "file": "assignment1/README.zh-CN.md",
+      "source": "assignment1/README.md",
+      "source_fenced_blocks": 5,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 5,
+      "image_occurrences": 1,
+      "missing_local_file_targets": [],
+      "sha256": "db5fdb428619fd196f6a40cc7c5ac715f91af454fde6390ebd29a21be20c43dd",
+      "source_sha256": "acf2ae92c61a5ba551e044852d58f230b06abe5e3550f538c150e5014e8a2163"
+    },
+    {
+      "file": "assignment2/README.zh-CN.md",
+      "source": "assignment2/README.md",
+      "source_fenced_blocks": 4,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 4,
+      "image_occurrences": 1,
+      "missing_local_file_targets": [],
+      "sha256": "52f3cec22b32cbf4ef66d96e8122106b57265ec8063362cfc3397e83c72093df",
+      "source_sha256": "023fb10d2cb82f0cdedbed71b28d3d1e2a89725924cbd2ab2be9f61bb782c31f"
+    },
+    {
+      "file": "assignment3/README.zh-CN.md",
+      "source": "assignment3/README.md",
+      "source_fenced_blocks": 5,
+      "source_html_pre_blocks": 3,
+      "translated_fenced_blocks": 8,
+      "image_occurrences": 1,
+      "missing_local_file_targets": [],
+      "sha256": "595664cd6dda26e6e3d1a8089732956087f923020f6af8c427a70967eb4e4b1a",
+      "source_sha256": "b56ea2619f5b3bb3037813dd3acb6a832fc60fcd3df3b34463782b9599ab2e06"
+    },
+    {
+      "file": "assignment4/README.zh-CN.md",
+      "source": "assignment4/README.md",
+      "source_fenced_blocks": 31,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 31,
+      "image_occurrences": 3,
+      "missing_local_file_targets": [],
+      "sha256": "b26eb1f0ce23c0e779cd133e4f1e875f8eccb19fc1abfcc32d6deb28c8c69e85",
+      "source_sha256": "276f791d8d6bc0258f0a019485773217bdd7b042fc768d0669d04f734c1c5ff1"
+    },
+    {
+      "file": "assignment5/README.zh-CN.md",
+      "source": "assignment5/README.md",
+      "source_fenced_blocks": 7,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 7,
+      "image_occurrences": 1,
+      "missing_local_file_targets": [],
+      "sha256": "fbccf4a86db8bc6cd999ba91d9db86b8b7c844097a7953cf19b16f83280496cd",
+      "source_sha256": "39254654133a4ef1997201250a1e27078fb665be42fbb404ebaf24c4abef3f86"
+    },
+    {
+      "file": "assignment6/README.zh-CN.md",
+      "source": "assignment6/README.md",
+      "source_fenced_blocks": 13,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 13,
+      "image_occurrences": 0,
+      "missing_local_file_targets": [],
+      "sha256": "c24bec3f70f99ad7a1cc04c44943ed10a40ef7b4afe70b3a6956ee8ac8b6dbb8",
+      "source_sha256": "740dff569ef40a1a29b8f5cd12162ba237b9914c7543938283d66a35ad829b7b"
+    },
+    {
+      "file": "assignment7/README.zh-CN.md",
+      "source": "assignment7/README.md",
+      "source_fenced_blocks": 7,
+      "source_html_pre_blocks": 0,
+      "translated_fenced_blocks": 7,
+      "image_occurrences": 1,
+      "missing_local_file_targets": [],
+      "sha256": "3c5ca5c36e4c1844db4575c27f3641692775b1d651a47fb21174a2e82afcab30",
+      "source_sha256": "3e8326c5b2a716e548a24a29cd054f538d57bd81e3ca1ad12a5fb2f4582439bb"
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "source_repository": "https://github.com/cs106l/cs106l-assignments",
+  "downloaded_at_utc": "2026-09-29T14:34:25Z",
+  "branch": "main",
+  "commit": "9a9a6ffce360de4296add768c8dba0b64d891e3a",
+  "commit_date": "2026-09-27T17:23:00-07:00",
+  "download_method": "shallow git clone",
+  "tracked_file_count": 99,
+  "tracked_bytes": 9897180,
+  "upstream_files_unchanged": true,
+  "git_object_integrity_check": "passed",
+  "original_chinese_guides": 7,
+  "guides_are_full_translations": false,
+  "execution_status": "No assignment programs or autograders were run; runtime dependencies were not installed.",
+  "assignment_checks": [
+    {
+      "assignment": 1,
+      "guide": "assignment1/任务指南_中文.md",
+      "tracked_files": 11
+    },
+    {
+      "assignment": 2,
+      "guide": "assignment2/任务指南_中文.md",
+      "tracked_files": 11
+    },
+    {
+      "assignment": 3,
+      "guide": "assignment3/任务指南_中文.md",
+      "tracked_files": 11
+    },
+    {
+      "assignment": 4,
+      "guide": "assignment4/任务指南_中文.md",
+      "tracked_files": 26
+    },
+    {
+      "assignment": 5,
+      "guide": "assignment5/任务指南_中文.md",
+      "tracked_files": 9
+    },
+    {
+      "assignment": 6,
+      "guide": "assignment6/任务指南_中文.md",
+      "tracked_files": 6
+    },
+    {
+      "assignment": 7,
+      "guide": "assignment7/任务指南_中文.md",
+      "tracked_files": 9
+    }
+  ],
+  "original_files": [
+    {
+      "path": ".github/workflows/autograders.yml",
+      "bytes": 744,
+      "sha256": "138878cb026f2163f55b2af01d0ba20365b15e6e7b74218e2bc1873e46afa6ed"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 496,
+      "sha256": "d028237f7b8e9c2a2f86f37a95b9790ec8e4e098b64a138d4ba6d0d9507d97bb"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 1391,
+      "sha256": "70c56bebf6bf88257a4361a2ce98d7b3fca1d8429d34d9d129df24573eec50c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 211,
+      "sha256": "9560d8c80bb1b402ce4dd0f686cd6ab84116f524af0e85e4da985669d223b29b"
+    },
+    {
+      "path": "admin.py",
+      "bytes": 1424,
+      "sha256": "4cd82dba4f91e730dffd8a0805d0cd808471291430dc6c226d37918db2aeff7a"
+    },
+    {
+      "path": "assignment-setup/README.md",
+      "bytes": 10433,
+      "sha256": "57d3d108259980f4461176f160c1137b0b80adb3799d1c22218dc30ec391ba0c"
+    },
+    {
+      "path": "assignment-setup/autograder/autograder.py",
+      "bytes": 1483,
+      "sha256": "c175ce8b1ab46a3129c9f36df795e157c0e124e51a66034ee54b0eb031a1a092"
+    },
+    {
+      "path": "assignment-setup/autograder/requirements.txt",
+      "bytes": 15,
+      "sha256": "228494e167c3490f2fddf84bc546888c9458a574653a5b57030142234cb281d1"
+    },
+    {
+      "path": "assignment-setup/autograder/utils.cpp",
+      "bytes": 1643,
+      "sha256": "e5c4f9b1d800d0a1719776eb2442f81291caea6c925ff91614e4f6d5f3ee8d08"
+    },
+    {
+      "path": "assignment-setup/autograder/utils.py",
+      "bytes": 12697,
+      "sha256": "353cc1cbb65eaa1a855c5a19e589d62286844f0f343810acb5fba6d37628612b"
+    },
+    {
+      "path": "assignment-setup/docs/autograder.png",
+      "bytes": 20984,
+      "sha256": "bd401571638fb6343f3c8b0c39a80316b8a39431d0953e94cb2c8238c56d4d7b"
+    },
+    {
+      "path": "assignment-setup/docs/header.png",
+      "bytes": 338535,
+      "sha256": "c24cf5513106713617fc66b40c48ff335c4cd11973a50b37b268bf8b2d00779d"
+    },
+    {
+      "path": "assignment-setup/docs/mac-zsh.png",
+      "bytes": 67468,
+      "sha256": "e2ba8fdd93661813ffb2e618da29433a90b8abb2ce219b1f2c44de073bc21fd1"
+    },
+    {
+      "path": "assignment-setup/docs/vscode-extensions.png",
+      "bytes": 13780,
+      "sha256": "c981671fc028b28192dbcdc2f1f6e158d9ebbff7e1daabf339944c7b0fd083fb"
+    },
+    {
+      "path": "assignment-setup/main.cpp",
+      "bytes": 546,
+      "sha256": "98b0110dd3893aa71344bf9167a8323042abff12a2c4641ae86b9a54d83086d2"
+    },
+    {
+      "path": "assignment1/README.md",
+      "bytes": 6442,
+      "sha256": "acf2ae92c61a5ba551e044852d58f230b06abe5e3550f538c150e5014e8a2163"
+    },
+    {
+      "path": "assignment1/autograder/autograder.py",
+      "bytes": 3206,
+      "sha256": "5488f2ec1629b7bd4cb70b58247c4f0100c01e7be411363dff1e59ef1b30ee73"
+    },
+    {
+      "path": "assignment1/autograder/courses_not_offered.bin",
+      "bytes": 9150,
+      "sha256": "c8db9810fb2026daac177c2fe2394596346c0be9f043d448ef1a7c357da4bbe7"
+    },
+    {
+      "path": "assignment1/autograder/courses_offered.bin",
+      "bytes": 13906,
+      "sha256": "ec3afc226bdcfd81c3121e6d272b0c24dd3ff406db3c1a4a0413942fca089eed"
+    },
+    {
+      "path": "assignment1/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment1/courses.csv",
+      "bytes": 17232,
+      "sha256": "17c646bd182d39844083cdbc6b949b9286b9b403d1f2435a09337b375456e953"
+    },
+    {
+      "path": "assignment1/docs/autograder.png",
+      "bytes": 68534,
+      "sha256": "4952adc0a91fcf0df52812b787d2524edd7b20003208bb8b31f80e28ea28f9a7"
+    },
+    {
+      "path": "assignment1/main.cpp",
+      "bytes": 3924,
+      "sha256": "b2c2e7c56c1f03d8de2f46381545fc5a8d70d07988baf9565ed217f55ef31e9c"
+    },
+    {
+      "path": "assignment1/student_output/courses_not_offered.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assignment1/student_output/courses_offered.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assignment1/utils.cpp",
+      "bytes": 3633,
+      "sha256": "af1e0d998e5ecfa2dd501cbfbaf808e8afb529deec713b8e209f2353c9c2fb93"
+    },
+    {
+      "path": "assignment2/README.md",
+      "bytes": 6620,
+      "sha256": "023fb10d2cb82f0cdedbed71b28d3d1e2a89725924cbd2ab2be9f61bb782c31f"
+    },
+    {
+      "path": "assignment2/autograder/autograder.py",
+      "bytes": 2477,
+      "sha256": "868c1707ef617b437ecd7af4abfe2652f0f209e2d12a0ef96dcc1bc5d177480c"
+    },
+    {
+      "path": "assignment2/autograder/requirements.txt",
+      "bytes": 15,
+      "sha256": "e91f42fdc36833eb19b14a96d440f3806e500e121b6209b9e068949086cdeaf0"
+    },
+    {
+      "path": "assignment2/autograder/student_output/match.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assignment2/autograder/student_output/set.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assignment2/autograder/utils.hpp",
+      "bytes": 1723,
+      "sha256": "bbc0e9e57e8101c9f3056490236357a88d6db9305838ec7e37360d021f1a08fe"
+    },
+    {
+      "path": "assignment2/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment2/docs/marriage_pact.png",
+      "bytes": 3612,
+      "sha256": "b93fb651829b8721d898ac3caf27ebd88e789ee0a9fdaef2e2f6939d0ced2522"
+    },
+    {
+      "path": "assignment2/main.cpp",
+      "bytes": 2150,
+      "sha256": "1b51ce0405e76ce7565bfeb71e4073be9754cf19ee2be01837e52c19ac206967"
+    },
+    {
+      "path": "assignment2/short_answer.txt",
+      "bytes": 712,
+      "sha256": "17354e5d824a8693b430f7068e60eebe480a763022275f89601705c87f7f3184"
+    },
+    {
+      "path": "assignment2/students.txt",
+      "bytes": 13935,
+      "sha256": "61fa1c34757f0facf49079ea5218b7aae11b66565cefbe67a54b7872d37208a2"
+    },
+    {
+      "path": "assignment3/README.md",
+      "bytes": 5533,
+      "sha256": "b56ea2619f5b3bb3037813dd3acb6a832fc60fcd3df3b34463782b9599ab2e06"
+    },
+    {
+      "path": "assignment3/autograder/autograder.py",
+      "bytes": 10992,
+      "sha256": "4af393b0e37f224f5f618e1328378f8f84a0439ee8bfdfb6c2b835ad01455b88"
+    },
+    {
+      "path": "assignment3/autograder/requirements.txt",
+      "bytes": 66,
+      "sha256": "f13bc7ea64c216b958278ea83423ded3a1b509bf62ec1365362095b9a2322972"
+    },
+    {
+      "path": "assignment3/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment3/class.cpp",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assignment3/class.h",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assignment3/docs/bjarne.jpg",
+      "bytes": 66974,
+      "sha256": "f1c93d79f605fa0fb5d3f9e5e097b9504d75993fa443c1e1c6575380e99742ed"
+    },
+    {
+      "path": "assignment3/main.cpp",
+      "bytes": 1499,
+      "sha256": "b9c96c7c30c3ab39b4dfc02319e28a4f03c951468399a3d7fcdd17a295599957"
+    },
+    {
+      "path": "assignment3/sandbox.cpp",
+      "bytes": 188,
+      "sha256": "e7456079fb227710d1157f2f5e01a4209ace0f80e40bf194fcbc6cf6db678df4"
+    },
+    {
+      "path": "assignment3/short_answer.txt",
+      "bytes": 285,
+      "sha256": "1085ba566b8040b1c123a7394c473c8e10c6e7e53b780d78e34f89cc33bcf437"
+    },
+    {
+      "path": "assignment3/utils.hpp",
+      "bytes": 1415,
+      "sha256": "4a68b2d78faf844e851c2cea7598d3dbb54ae270b54cf6a4f43f19d87e63c4f8"
+    },
+    {
+      "path": "assignment4/README.md",
+      "bytes": 26684,
+      "sha256": "276f791d8d6bc0258f0a019485773217bdd7b042fc768d0669d04f734c1c5ff1"
+    },
+    {
+      "path": "assignment4/autograder/autograder.py",
+      "bytes": 11143,
+      "sha256": "8770f3f2d9dae1e2a5b546e7dfeeba4c266403ddcf37554770085a6572be6d88"
+    },
+    {
+      "path": "assignment4/autograder/gold/(kafka).txt",
+      "bytes": 899,
+      "sha256": "4c90db90e044eb7e3dd11caf196e3ba0c437eb89e701ad7a42fcd97b43a57e80"
+    },
+    {
+      "path": "assignment4/autograder/gold/(marquez).txt",
+      "bytes": 708,
+      "sha256": "022d64518acd512a0fe5f5e3eb87a175d2d82855223b3e59e72f6ccaa0dd1a42"
+    },
+    {
+      "path": "assignment4/autograder/gold/(morrison).txt",
+      "bytes": 995,
+      "sha256": "b56284baf55b0c7b967bf3470cfebca4f26c722c4a0a0c8c43a5ac22f223e0e3"
+    },
+    {
+      "path": "assignment4/autograder/gold/gibberish.txt",
+      "bytes": 254,
+      "sha256": "0c60a26cfa26db49e65b6c61531b1936e09c651dfd04639c1bea2615d7011def"
+    },
+    {
+      "path": "assignment4/autograder/gold/melville.txt",
+      "bytes": 396,
+      "sha256": "5b5a0fe544e7ebdf994142aa8327ed9167cdc6e2db7dda262a877c2a6f96ebfd"
+    },
+    {
+      "path": "assignment4/autograder/gold/orwell.txt",
+      "bytes": 401,
+      "sha256": "4635599eca4023503c2c4e349aab9891a74223a9d6f454226a0c0166066f9a65"
+    },
+    {
+      "path": "assignment4/autograder/gold/tolstoy.txt",
+      "bytes": 446,
+      "sha256": "9cd2032f37838b8f2774bf3a8c7e85a6bebbd404729b19b049dca7bdb1d1182a"
+    },
+    {
+      "path": "assignment4/autograder/utils.hpp",
+      "bytes": 5244,
+      "sha256": "828e06bdcf22bae41bb084271c508cd171fae910f000bc9aaa14385bb5431c80"
+    },
+    {
+      "path": "assignment4/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment4/docs/header.png",
+      "bytes": 17904,
+      "sha256": "864170e80575fcf1c9272b7f52ff09d42bf77c196417bd549c9ff25c3f546b5f"
+    },
+    {
+      "path": "assignment4/docs/mispelled.png",
+      "bytes": 11347,
+      "sha256": "bad5908cb3e647147898876d9641062ba38fb104b53de8cdb614b68f987c964b"
+    },
+    {
+      "path": "assignment4/docs/spellcheck.png",
+      "bytes": 37381,
+      "sha256": "1ff919a581142e2c87b982e8a9c89fdd4ae8854f97dc5d1f611ee4b953e6d33a"
+    },
+    {
+      "path": "assignment4/examples/(kafka).txt",
+      "bytes": 688,
+      "sha256": "1e9954943e48d247a3a17a812defa60e40361d1cb68106026b4ec22ec10a7ed8"
+    },
+    {
+      "path": "assignment4/examples/(marquez).txt",
+      "bytes": 465,
+      "sha256": "dd077e415d2eb6adbfc52f7cb33d4ab15372fc994040cdba96a0c9e23cc50804"
+    },
+    {
+      "path": "assignment4/examples/(morrison).txt",
+      "bytes": 673,
+      "sha256": "50c06eec91d443a147d7b83b3500d52d472d2d0611dc61114abf413171d47798"
+    },
+    {
+      "path": "assignment4/examples/gibberish.txt",
+      "bytes": 166,
+      "sha256": "303351478a788cbe30ef8010bb14d2b39da2ede22dcb09fb7324297dc597b4c1"
+    },
+    {
+      "path": "assignment4/examples/melville.txt",
+      "bytes": 308,
+      "sha256": "02d5da13620827d1a429ec6ecb1ecbf846015988a099e05989bb26d834020fa5"
+    },
+    {
+      "path": "assignment4/examples/orwell.txt",
+      "bytes": 313,
+      "sha256": "84215ef7f17616b653adba1ded039949c0fa839c16f8cba4a4f148e82dab366a"
+    },
+    {
+      "path": "assignment4/examples/tolstoy.txt",
+      "bytes": 358,
+      "sha256": "8d811eb189be043fd170293e0c3604c4547517fe431105119824e7aa94156814"
+    },
+    {
+      "path": "assignment4/main.cpp",
+      "bytes": 4438,
+      "sha256": "8dfd0ca2ad49f20df517b58c000db878c0cfa3608bf7d7399f9df1eb87974c9d"
+    },
+    {
+      "path": "assignment4/spellcheck.cpp",
+      "bytes": 565,
+      "sha256": "6fac6415089140885537e6825248581b1cb528851f85998583e05ba2077fa178"
+    },
+    {
+      "path": "assignment4/spellcheck.h",
+      "bytes": 878,
+      "sha256": "d201ce8e8461ddbb19ffcc9c5500144cb402abd0cd0127c93fe9d0018bb5a95c"
+    },
+    {
+      "path": "assignment4/utils.cpp",
+      "bytes": 2845,
+      "sha256": "55bcaf0ad0c29bf716aadea4be98adefa3b958444970fb0f088f6c6bb23055fb"
+    },
+    {
+      "path": "assignment4/words.txt",
+      "bytes": 4862985,
+      "sha256": "39a4ead879cc8283de87f2ec58e7b4b340d6caa724db1b52a91dccf2f273c5e7"
+    },
+    {
+      "path": "assignment5/README.md",
+      "bytes": 7827,
+      "sha256": "39254654133a4ef1997201250a1e27078fb665be42fbb404ebaf24c4abef3f86"
+    },
+    {
+      "path": "assignment5/autograder/autograder.py",
+      "bytes": 3441,
+      "sha256": "d315440ae1f45f46e5836adf64f69ba98542333da57bb0810525c05d61f7e31d"
+    },
+    {
+      "path": "assignment5/autograder/diagnostics.hpp",
+      "bytes": 4006,
+      "sha256": "635384578c8b563d2eb6a5ed132f3faba9167f3125ca78d270dda524df7084ff"
+    },
+    {
+      "path": "assignment5/autograder/utils.hpp",
+      "bytes": 933,
+      "sha256": "306eaff9874933daf1589a46c926bc26c20954b0c8a0cba31e88a8aa7955fc7a"
+    },
+    {
+      "path": "assignment5/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment5/docs/logo.jpeg",
+      "bytes": 541336,
+      "sha256": "6928934dfc7cb5f9222ab770a780f1fb3fb2e20d4f9c95eae09c52fbcf754d84"
+    },
+    {
+      "path": "assignment5/main.cpp",
+      "bytes": 6003,
+      "sha256": "529af0572763b2cc337d012796d57b72e5820787b94d8b4bb013a00dad15d494"
+    },
+    {
+      "path": "assignment5/user.cpp",
+      "bytes": 1201,
+      "sha256": "f69083ea160ec7e62243dcd4a18c707480716b8aeaaf68c4daa534435dd7b302"
+    },
+    {
+      "path": "assignment5/user.h",
+      "bytes": 557,
+      "sha256": "5fb7ac51944e52529579486b484f0d224b8bd3a1df1f9343ebfffa0164d35b9e"
+    },
+    {
+      "path": "assignment6/README.md",
+      "bytes": 7279,
+      "sha256": "740dff569ef40a1a29b8f5cd12162ba237b9914c7543938283d66a35ad829b7b"
+    },
+    {
+      "path": "assignment6/autograder/autograder.py",
+      "bytes": 3003,
+      "sha256": "00abf8b8a05a2767457aea8b0d232d578d0fdd2b97bf6c4c104728a69fb7454f"
+    },
+    {
+      "path": "assignment6/autograder/courses.csv",
+      "bytes": 17232,
+      "sha256": "17c646bd182d39844083cdbc6b949b9286b9b403d1f2435a09337b375456e953"
+    },
+    {
+      "path": "assignment6/autograder/utils.hpp",
+      "bytes": 1666,
+      "sha256": "e404db9ff4cc519c16161a92002d3d01f90c00aa9e601812990dd3c7f26142d0"
+    },
+    {
+      "path": "assignment6/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment6/main.cpp",
+      "bytes": 2573,
+      "sha256": "cfe3a3f0c3ad2a74609848e6d20fae0f1dbf6a2fa1baa83a4a9e6b01dc42a386"
+    },
+    {
+      "path": "assignment7/README.md",
+      "bytes": 10958,
+      "sha256": "3e8326c5b2a716e548a24a29cd054f538d57bd81e3ca1ad12a5fb2f4582439bb"
+    },
+    {
+      "path": "assignment7/autograder/autograder.py",
+      "bytes": 4645,
+      "sha256": "8c600ac23f72baa4e37224dc88cd197383210ee442c61fc4d78e83f3446d109b"
+    },
+    {
+      "path": "assignment7/autograder/diagnostics.hpp",
+      "bytes": 4006,
+      "sha256": "635384578c8b563d2eb6a5ed132f3faba9167f3125ca78d270dda524df7084ff"
+    },
+    {
+      "path": "assignment7/autograder/utils.hpp",
+      "bytes": 10227,
+      "sha256": "787b386692f1b0668b11f7c0ec8d3ff6ef8c9cb37ff7163688596042ad5f1565"
+    },
+    {
+      "path": "assignment7/autograder/utils.py",
+      "bytes": 12690,
+      "sha256": "ddbbfc9e8e402a58f90666d02a32e6bb02033aa0791a3879a6493d9fed26fc28"
+    },
+    {
+      "path": "assignment7/docs/art.png",
+      "bytes": 3456090,
+      "sha256": "741fc2629708f54a3f6cbe0bd4062b2e923b3a3bbbbbe6b70a65baafcbc45c84"
+    },
+    {
+      "path": "assignment7/main.cpp",
+      "bytes": 2479,
+      "sha256": "1b4a20edc32626d248b18d4d1112999247716bf305705e1bd20b5fbb0dcbe2b3"
+    },
+    {
+      "path": "assignment7/short_answer.txt",
+      "bytes": 937,
+      "sha256": "df9582e06e75396d513d4360160c504b187b06caab992b4b24ef5609aa659bfe"
+    },
+    {
+      "path": "assignment7/unique_ptr.h",
+      "bytes": 3614,
+      "sha256": "1ed9ce77bafcdd1d7c17afd35105cf1697f58c7d6e1441414bfea08d1ad8f3bc"
+    },
+    {
+      "path": "docs/vscode-extensions.png",
+      "bytes": 13780,
+      "sha256": "c981671fc028b28192dbcdc2f1f6e158d9ebbff7e1daabf339944c7b0fd083fb"
+    }
+  ],
+  "full_readme_translations": {
+    "completed_at_utc": "2026-09-29T14:46:52.490586+00:00",
+    "assignment_count": 7,
+    "setup_count": 1,
+    "repository_readme_count": 1,
+    "scope": "Full paragraph-by-paragraph Chinese translations, with separate translator notes.",
+    "files": [
+      "README.zh-CN.md",
+      "assignment-setup/README.zh-CN.md",
+      "assignment1/README.zh-CN.md",
+      "assignment2/README.zh-CN.md",
+      "assignment3/README.zh-CN.md",
+      "assignment4/README.zh-CN.md",
+      "assignment5/README.zh-CN.md",
+      "assignment6/README.zh-CN.md",
+      "assignment7/README.zh-CN.md"
+    ],
+    "validation_report": "assignment_translation_validation.json"
+  }
+}
